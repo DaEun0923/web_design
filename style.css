@@ -1,0 +1,12 @@
+h1{
+    color: coral
+}
+
+table, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table .target{
+    background-color: beige;
+}
