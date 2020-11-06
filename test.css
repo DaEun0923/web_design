@@ -168,6 +168,7 @@ table{
     width: 800px;
     border: 1px solid black;
     margin: auto;
+    background-color: white;
 }
 td{
     border: 1px solid black;
