@@ -185,3 +185,16 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.click{
+    text-decoration: none;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: xx-large;
+}
+
+.click:hover{
+    text-decoration: underline ;
+    font-family: 'Do Hyeon', sans-serif;
+    color: blueviolet;
+    font-size: xx-large;
+}

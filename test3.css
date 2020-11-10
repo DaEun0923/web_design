@@ -176,12 +176,10 @@ table{
     margin: auto;
     background-color: white;
 }
-td{
-    border: 1px solid black;
-    padding: 10px;
-}
 
 a{
     text-decoration: none;
+    font-family: 'Do Hyeon', sans-serif;
     color: black;
 }
+
