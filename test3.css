@@ -20,8 +20,8 @@ header h1{
 }
 
 header nav{
-    width: 60%;
-    float: right;
+    width: 100%;
+    float: center;
     font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -31,7 +31,7 @@ nav ul{
 
 nav ul li{
     display: inline;
-    float: left;
+    float: right;
     margin: 15px;
     color: aliceblue;
 }
@@ -50,7 +50,7 @@ section{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    border: 5px solid white;
+    border: 5px solid #a8a8a8;
     background-color: white;
     padding: 5px;
 }
@@ -143,7 +143,7 @@ body{
 .title{
     font-family: 'Do Hyeon', sans-serif;
     color: aliceblue;
-    text-align: center;
+    text-align: left;
 }
 
 .title2{
