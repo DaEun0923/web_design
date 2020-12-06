@@ -40,8 +40,36 @@
               </td>
       </table>
     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/hBCix7bG9I4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-      <br>
-      <br>
+    <br><br>
+    <h1 class="title"><a name="1">회원가입 및 개인정보입력</a></h1>
+  	<form>
+  		<fieldset id="register">
+  			<legend>회원가입</legend>
+  			<ul>
+  				<li>
+  					<label class="reg" for="uname">이름</label>
+  					<input type="text" id="uname" autofocus required>
+  				</li>
+  				<li>
+  					<label class="reg" for="user_id">아이디</label>
+  					<input type="text" id="user_id" placeholder="4~15자리 이내의 영문과 숫자" minlength="4" maxlength="15" required>
+  				</li>
+                <li>
+  					<label class="reg" for="password">비밀번호</label>
+  					<input type="text" id="password" mixlength="4" maxlength="15" required><small style="color:red;"> 영문, 특수문자 포함</small>
+  				</li>
+                 <li>
+  					<label class="reg" for="re_password">비밀번호 확인</label>
+  					<input type="text" id="re_password" mixlength="4" maxlength="15" required>
+  				</li>
+  			</ul>
+  		</fieldset>
+        <fieldset>
+  			<button type="submit" value="submit">가입하기</button>
+  			<button type="reset" value="reset">다시쓰기</button>
+  		</fieldset>
+      </form>
+      <br><br>
       <center><img src="image/map.png" usemap="#sns"></center>
       <a name="4"><map name="sns">
       <area shape="rect" coords="0,0,28,30" href="http://twitter.com"
