@@ -1,44 +1,44 @@
 body{
     font-family: "맑은고딕", "고딕", "굴림";
-    background-color: aliceblue;
 }
 
 header{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color: darkblue;
     padding: 10px;
     overflow: hidden;
 }
 
 header h1{
     width: 40%;
-    float: left;
-    color: #ffffff;
+    float: center;
+    color: #000000;
     font-family: 'Kaushan Script', cursive;
 }
 
 header nav{
-    width: 60%;
-    float: right;
+    width: 100%;
+    float: center;
     font-family: 'Do Hyeon', sans-serif;
 }
 
 nav ul{
     list-style-type: none;
+    background-color: black;
 }
 
 nav ul li{
     display: inline;
-    float: left;
+    float: center;
     margin: 15px;
-    color: aliceblue;
+    background-color: black;
 }
 
 nav ul li a{
     color: white;
     text-decoration: none;
+    font-size: xx-large;
 }
 
 p{
@@ -198,3 +198,46 @@ a{
     color: blueviolet;
     font-size: xx-large;
 }
+.carousel{
+    display: block;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: center;
+}
+.carousel li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    animation: slide 15s ease infinite forwards;
+}
+.carousel li:nth-child(1){
+    opacity: 1;
+    z-index: 3;
+}
+.carousel li:nth-child(2){
+    z-index: 2;
+    animation-delay: 5s;
+}
+.carousel li:nth-child(3){
+    z-index: 1;
+    animation-delay: 10s;
+}
+
+@keyframes slide{
+    0%{opacity:1; left:0;}
+    33.33%{opacity: 0.5; left:-120%;}
+    34%{opacity:0;}
+    66.66%{left: 0; opacity:0;}
+    100%{opacity: 1;}
+}
+
+.main{
+    float: left;
+    width: 200px;
+    padding-right: 15px;
+}
+
